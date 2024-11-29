@@ -1,4 +1,4 @@
-package com.WearWeather.wear.util;
+package util;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileDescriptor;
