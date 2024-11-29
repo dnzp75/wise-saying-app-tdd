@@ -2,6 +2,7 @@ package util;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.WearWeather.wear.util.TestUtil;
 import java.io.ByteArrayOutputStream;
 import java.util.Scanner;
 import org.junit.jupiter.api.DisplayName;
