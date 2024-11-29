@@ -1,6 +1,8 @@
 package util;
 
 import static org.assertj.core.api.Assertions.assertThat;
+
+import java.io.ByteArrayOutputStream;
 import java.util.Scanner;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -38,9 +40,10 @@ public class TestUtilTest {
     @Test
     @DisplayName("TestUtil.setOutToByteArray()- testUtil을 만드는 테스트")
     public void t2(){
-        Scanner byteArrayOutputStream = TestUtil.setOutToByteArray();
+        ByteArrayOutputStream byteArrayOutputStream = TestUtil.setOutToByteArray();
 
         System.out.println("2 / 이순신 / 나의 죽음을 적들에게 알리지 말라!");
+
         String out = byteArrayOutputStream.toString().trim();
         TestUtil.clearSetOutToByteArray(byteArrayOutputStream);
 
